@@ -1,0 +1,39 @@
+@use "../../../assets/styles/" as *;
+
+.fundingCart {
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  img {
+    max-width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 188px;
+  }
+  &__content {
+    padding: 12px 20px;
+    h6 {
+      height: 35px;
+      -webkit-line-clamp: 2;
+      font-weight: 600;
+    }
+    h4 {
+      font-size: 16px;
+      padding-top: 4px;
+      color: $primary-color;
+    }
+    p {
+      display: -webkit-box;
+      overflow: hidden;
+      height: 35px;
+      -webkit-line-clamp: 2;
+      color: #666;
+      font-size: 14px;
+      line-height: 1.265;
+    }
+  }
+}

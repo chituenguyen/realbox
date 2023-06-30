@@ -1,0 +1,33 @@
+@use "../../assets/styles/" as *;
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    list-style-type: none;
+    a {
+      color: white;
+      font-size: 16px;
+    }
+  }
+  &__auth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,37 @@
+@use "../../assets/styles/" as *;
+
+.button {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 20px;
+  min-width: 90px;
+  height: 36px;
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+  }
+
+  @include button(
+    16px,
+    700,
+    6px,
+    10px,
+    $primary-color,
+    $primary-color,
+    $color-white-0,
+    $color-white-0
+  );
+  .button__icon {
+    margin-right: 10px;
+  }
+
+  i {
+    margin-left: 10px;
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

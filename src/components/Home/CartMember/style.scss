@@ -1,0 +1,24 @@
+@use "../../../assets/styles/" as *;
+
+.cartmember {
+  img {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 8px;
+  }
+  &__advisor{
+    color:$primary-color;
+    margin-top: 20px;
+  }
+  &__name {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 5px;
+  }
+  &__des {
+    font-size: 13px;
+    line-height: 130%;
+  }
+}

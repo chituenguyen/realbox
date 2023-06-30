@@ -1,0 +1,30 @@
+@use "../../assets/styles/" as *;
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 40px 230px;
+    ul{
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+        }
+    }
+    &__logo{
+        // display: flex;
+        position: relative;
+        img{
+            position: absolute;
+            left: -40%;
+            top: 0;
+        }
+        h1{
+            margin-bottom: 30px;
+        }
+        li{
+            color: rgb(120,120,118);
+        }
+    }
+}
